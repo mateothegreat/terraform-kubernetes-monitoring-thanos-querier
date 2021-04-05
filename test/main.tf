@@ -57,20 +57,8 @@ module "monitoring-thanos-query" {
 
         {
 
-            name     = "mlfabric-devops-logging-1"
-            hostname = "af7e0d9c77bc9419f8aa338095d6d428-3051e57738548442.elb.us-east-1.amazonaws.com"
-            port     = 10901
-
-        }, {
-
-            name     = "maa-ml-cam-ingest-prod"
-            hostname = "ab485332ee2514c12a3ea4f0b07f30d8-9a41c6be8fabb246.elb.us-east-1.amazonaws.com"
-            port     = 10901
-
-        }, {
-
-            name     = "maa-ml-cam-ingest-staging"
-            hostname = "a8b7ad6268172498d8c8a698f2de741e-ce620c89268b6759.elb.us-east-1.amazonaws.com"
+            name     = "test-1"
+            hostname = "thanos-sidecar"
             port     = 10901
 
         }
